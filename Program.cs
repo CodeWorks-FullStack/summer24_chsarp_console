@@ -2,6 +2,8 @@
 Console.Clear();
 Console.WriteLine("Hello, World!");
 
+// ANCHOR strings
+
 // explicit typing, my type is assigned directly
 string firstName = "Jeremy";
 
@@ -15,3 +17,63 @@ var catchPhrase = "It's time to learn!";
 Console.WriteLine(firstName + middleInitial + lastName);
 
 Console.WriteLine($"My name is {firstName} {middleInitial} {lastName}, and my catchphrase is {catchPhrase}");
+
+// ANCHOR booleans
+
+bool likesCats = true;
+
+bool likesRawTomatoes = false;
+
+if (likesCats)
+{
+  Console.WriteLine($"{firstName} likes cats");
+}
+else
+{
+  Console.WriteLine("Someone wrote bad code");
+}
+
+// ANCHOR numbers
+
+int numberOfCrocs = 8;
+
+long goalAmountOfCrocs = 20000000000;
+
+double sandwichesEaten = 2.3;
+numberOfCrocs--;
+numberOfCrocs++;
+
+Console.WriteLine($"Mick has {numberOfCrocs} pairs of crocs but he wants {goalAmountOfCrocs} pairs of crocs");
+
+Console.WriteLine(sandwichesEaten);
+
+// ANCHOR weird stuff
+
+// var x; undefined does not exist, everything must have a definition
+
+string x = null; // strings cannot be null
+// int x = null; numbers cannot be null
+Console.WriteLine(x);
+
+// ANCHOR arrays
+
+// NOTE arrays are terrible in C#
+string[] catNames = ["Gopher", "Falcon", "Georgie"];
+
+for (int i = 0; i < catNames.Length; i++)
+{
+  string name = catNames[i];
+  Console.WriteLine($"Hi my name is {name}! Meow meow feed me");
+}
+
+List<string> dogNames = ["Dipper", "Pluto"];
+
+dogNames.Add("Hooper"); // similar to push
+dogNames.Add("Doug");
+
+dogNames.Remove("Doug"); // similar??? to splice
+
+foreach (string dogName in dogNames)
+{
+  Console.WriteLine($"Bark bark my name is {dogName}");
+}
