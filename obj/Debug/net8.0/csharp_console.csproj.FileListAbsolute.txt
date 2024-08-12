@@ -1,0 +1,14 @@
+C:\Users\JeremysSurface\source\Codeworks\summer24\csharp_console\bin\Debug\net8.0\csharp_console.exe
+C:\Users\JeremysSurface\source\Codeworks\summer24\csharp_console\bin\Debug\net8.0\csharp_console.deps.json
+C:\Users\JeremysSurface\source\Codeworks\summer24\csharp_console\bin\Debug\net8.0\csharp_console.runtimeconfig.json
+C:\Users\JeremysSurface\source\Codeworks\summer24\csharp_console\bin\Debug\net8.0\csharp_console.dll
+C:\Users\JeremysSurface\source\Codeworks\summer24\csharp_console\bin\Debug\net8.0\csharp_console.pdb
+C:\Users\JeremysSurface\source\Codeworks\summer24\csharp_console\obj\Debug\net8.0\csharp_console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JeremysSurface\source\Codeworks\summer24\csharp_console\obj\Debug\net8.0\csharp_console.AssemblyInfoInputs.cache
+C:\Users\JeremysSurface\source\Codeworks\summer24\csharp_console\obj\Debug\net8.0\csharp_console.AssemblyInfo.cs
+C:\Users\JeremysSurface\source\Codeworks\summer24\csharp_console\obj\Debug\net8.0\csharp_console.csproj.CoreCompileInputs.cache
+C:\Users\JeremysSurface\source\Codeworks\summer24\csharp_console\obj\Debug\net8.0\csharp_console.dll
+C:\Users\JeremysSurface\source\Codeworks\summer24\csharp_console\obj\Debug\net8.0\refint\csharp_console.dll
+C:\Users\JeremysSurface\source\Codeworks\summer24\csharp_console\obj\Debug\net8.0\csharp_console.pdb
+C:\Users\JeremysSurface\source\Codeworks\summer24\csharp_console\obj\Debug\net8.0\csharp_console.genruntimeconfig.cache
+C:\Users\JeremysSurface\source\Codeworks\summer24\csharp_console\obj\Debug\net8.0\ref\csharp_console.dll
