@@ -77,3 +77,51 @@ foreach (string dogName in dogNames)
 {
   Console.WriteLine($"Bark bark my name is {dogName}");
 }
+
+
+// ANCHOR objects
+
+// NOTE pojos don't *really* exist in C#
+
+Cat gopher = new Cat("Gopher", true);
+
+// cat.Name = "Lindsey"; cannot set this value
+
+// Console.WriteLine(@$"
+// Meow I am a cat and my name is {gopher.Name} 
+// and I {(gopher.LikesCheese ? "love" : "hate")} cheese");
+
+// Console.WriteLine(gopher.JudgeCat());
+
+List<Cat> cats = [gopher, new Cat("Frankie", false)];
+
+cats.ForEach(cat =>
+{
+  Console.WriteLine(cat.JudgeCat());
+});
+
+class Cat
+{
+  // NOTE this is the constructor
+  public Cat(string name, bool threwUpOnTheBed)
+  {
+    this.Name = name;
+    this.LikesCheese = true;
+    this.ThrewUpOnTheBed = threwUpOnTheBed;
+  }
+
+  public string Name { get; } // I can only get the cat's name, I can't set it to something different
+  public bool LikesCheese { get; set; } // I can get this property and change it
+
+  // NOTE only the cat knows that they threw up on the bed because this is private
+  private bool ThrewUpOnTheBed { get; set; }
+
+  public string JudgeCat()
+  {
+    if (this.ThrewUpOnTheBed)
+    {
+      return "I might have thrown up on the bed...";
+    }
+    return "I didn't throw up on the bed";
+  }
+}
