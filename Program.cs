@@ -51,7 +51,7 @@ Console.WriteLine(sandwichesEaten);
 
 // var x; undefined does not exist, everything must have a definition
 
-string x = null; // strings cannot be null
+string x = null; // strings can be null
 // int x = null; numbers cannot be null
 Console.WriteLine(x);
 
